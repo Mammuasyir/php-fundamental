@@ -1,30 +1,24 @@
 <?php
 
-//Expression
+//Expression adalah sesuatu yang menghasilkan nilai
 $manusia = "younes";
 $orang = $manusia;
 
-function getNilai(){
-    return 100;
-}
-$value = getNilai();
+//Statement adalah sebuah eksekusi yang dapat dijalankan
+$makanan = "nasi goreng";
+echo $makanan;
 
-//Statement
-$manusia = "younes";
-echo $manusia;
-
-$date = new DateTime();
 echo "\n";
+$date = new DateTime();
 echo $date->format('Y-m-d');
 
-//Block
-$manusia = "younes";
-
-if($manusia == "younes"){
-    echo true;
-}else{
-    echo false;
+//Block adalah sebuah statement yang berada di dalam kurung kurawal
+function Biodata() {
+    echo "Nama : Younes";
+    echo "Umur : 20";
+    echo "Alamat : Jl. Kebon Jeruk";
 }
+
 
 
 ?>
