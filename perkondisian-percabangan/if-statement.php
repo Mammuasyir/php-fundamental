@@ -1,11 +1,14 @@
 <?php
 
 $name = "Fajar";
-$nilai = 65;
-$kehadiran = 80;
 
-if ($nilai >= 70 && $kehadiran >= 80 ) {
-    echo "$name, Anda lulus";
+$nilai = 80;
+$kehadiran = 40;
+
+if ($nilai >= 80 || $kehadiran >= 80) {
+    echo " $name, Anda lulus";
 } else {
-    echo "$name, Anda Tidak lulus";
-}
+    echo " $name, Anda tidak lulus";
+} 
+
+?>

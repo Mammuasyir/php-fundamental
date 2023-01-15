@@ -1,19 +1,22 @@
 <?php
-$nilai = "E";
+
+$nilai = "A";
 
 switch ($nilai) {
-    case "A":
-        echo "Anda lulus dengan sangat baik";
-        break;
-    case "B":
-    case "C":
-        echo "Anda lulus";
-        break;
-    case "D":
-        echo "Anda tidak lulus";
-        break;
-    default:
-        echo "Mungkin Anda salah jurusan";
+    case "A";
+    echo "Sangat Baik";
+    break;
+    case "B";
+    echo "Baik";
+    break;
+    case "C";
+    echo "Cukup";
+    break;
+    case "D";
+    echo "Kurang";
+    break;
+    default :
+    echo "Mungkin anda salah jurusan";
 }
 
 ?>
