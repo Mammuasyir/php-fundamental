@@ -1,7 +1,7 @@
 <?php
-require "RequiredanInclude/MyFunction.php";
 
+require "requiredaninclude/MyFunction.php";
 
-echo sayHello("Arka", "Zaki");
+echo sayHello("Younes", "Joko");
 
 ?>

@@ -1,18 +1,21 @@
 <?php
 
+//Apa kegunaan dari variable function sendiri? Kita bisa bikin sebuah argument di sebuah function
+// yang argument itu adalah nama function yang lain. 
 
-function daa($dua){
-    echo "Daa $dua" . PHP_EOL;
+function satu() {
+    echo "aku adalah satu" . PHP_EOL;
 }
 
-function baa($satu){
-    echo "Baa $satu" . PHP_EOL;
+function dua($variabel) {
+    echo "aku adalah dua $variabel";
 }
 
-daa("baa");
+//cara normal
+satu();
 
-$functionYangAkanDipanggil = "baa";
-$functionYangAkanDipanggil("daa");
-
+//variable-function
+$functionPanggilan = "dua";
+$functionPanggilan("satu"); 
 
 ?>

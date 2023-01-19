@@ -1,9 +1,9 @@
 <?php
 
-
-function sayHello(string $firstName, string $lastName): string
-{
-    return "Hello $firstName $lastName";
+function sayHello($firstname, $lastname) {
+    return "Hello $firstname $lastname";
 }
+
+
 
 ?>

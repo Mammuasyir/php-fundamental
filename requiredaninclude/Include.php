@@ -1,7 +1,7 @@
 <?php
-include "RequiredanInclude/MyFunction.php";
 
+include "function/function-argument.php";
 
-echo sayHello("Arka", "Zaki");
+echo tangan("martabak", "gahwah");
 
 ?>
